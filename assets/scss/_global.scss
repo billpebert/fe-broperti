@@ -1,0 +1,38 @@
+body {
+  max-width: 100%;
+  background-color: $background;
+
+  nav {
+    background-color: transparent !important;
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 18px;
+        font-weight: map-get($map: $fw, $key: regular);
+        color: $text-grey !important;
+        margin-left: 25px;
+      }
+      .active {
+        color: $primary-green !important;
+        border-bottom: 2px;
+        border-color: $primary-green;
+      }
+    }
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $text-dark !important;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $text-dark !important;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $text-dark !important;
+  }
+}

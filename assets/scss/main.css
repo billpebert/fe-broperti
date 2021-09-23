@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-master, .btn-exploreNow, .btn-v2, .btn-v1, .btn-myAccount {
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: 500ms;
+}
+.btn-master:hover, .btn-exploreNow:hover, .btn-v2:hover, .btn-v1:hover, .btn-myAccount:hover {
+  background-color: #52d459;
+  color: #ffffff;
+}
+
+.btn-myAccount {
+  padding: 12px 32px;
+}
+
+.btn-v1 {
+  background-color: #83d987;
+  color: #132039;
+}
+
+.btn-v2 {
+  background-color: #374267;
+  color: #ffffff;
+}
+
+.btn-exploreNow {
+  padding: 21px 31px;
+  color: #132039;
+  background-color: #83d987;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #9094a2;
+}
+
+.label-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #020b2a;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: #ffffff;
+}
+
+body {
+  max-width: 100%;
+  background-color: #0f1837;
+}
+body nav {
+  background-color: transparent !important;
+}
+body nav .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9094a2 !important;
+  margin-left: 25px;
+}
+body nav .navbar-nav .active {
+  color: #83d987 !important;
+  border-bottom: 2px;
+  border-color: #83d987;
+}
+body ::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #020b2a !important;
+  opacity: 1;
+  /* Firefox */
+}
+body :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #020b2a !important;
+  opacity: 1;
+  /* Firefox */
+}
+body ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #020b2a !important;
+  opacity: 1;
+  /* Firefox */
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #020b2a !important;
+}
+body ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #020b2a !important;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+.hero-image img.hero-background {
+  width: 1440px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .hero-image img.hero-background {
+    width: 100%;
+  }
+}
+
+section.hero {
+  padding-top: 100px;
+}
+section.hero .form-content {
+  margin-top: 60px;
+  padding: 21px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  max-width: 713px;
+}
+section.hero .form-content input {
+  border: none;
+  border-radius: 7px;
+  background-color: #f7f7f9;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  section.hero {
+    padding-top: 75px;
+  }
+}/*# sourceMappingURL=main.css.map */

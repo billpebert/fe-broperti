@@ -1,0 +1,35 @@
+.hero-image {
+  max-width: 100%;
+  img.hero-background {
+    width: 1440px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
+
+section.hero {
+  padding-top: 100px;
+
+  .form-content {
+    margin-top: 60px;
+    padding: 21px;
+    background-color: $light;
+    border-radius: 7px;
+    max-width: 713px;
+
+    input {
+      border: none;
+      border-radius: 7px;
+      background-color: $input-bg;
+      font-weight: map-get($map: $fw, $key: medium);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-top: 75px;
+  }
+}

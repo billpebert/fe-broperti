@@ -1,0 +1,35 @@
+.btn-master {
+  font-weight: map-get($map: $fw, $key: medium);
+  font-size: 18px;
+  border-radius: 4px;
+  transition: 500ms;
+
+  &:hover {
+    background-color: $primary-green-hover;
+    color: $light;
+  }
+}
+
+.btn-myAccount {
+  @extend .btn-master;
+  padding: 12px 32px;
+}
+
+.btn-v1 {
+  @extend .btn-master;
+  background-color: $primary-green;
+  color: $btn-text-dark;
+}
+
+.btn-v2 {
+  @extend .btn-master;
+  background-color: $secondary-grey;
+  color: $light;
+}
+
+.btn-exploreNow {
+  @extend .btn-master;
+  padding: 21px 31px;
+  color: $btn-text-dark;
+  background-color: $primary-green;
+}

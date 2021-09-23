@@ -1,0 +1,20 @@
+p {
+  margin-top: 20px;
+  font-weight: map-get($map: $fw, $key: regular);
+  font-size: 16px;
+  line-height: 32px;
+  color: $text-grey;
+}
+
+.label-text {
+  font-size: 14px;
+  font-weight: map-get($map: $fw, $key: regular);
+  color: $text-dark;
+}
+
+h1 {
+  font-weight: map-get($map: $fw, $key: semi-bold);
+  font-size: 48px;
+  line-height: 65px;
+  color: $light;
+}
