@@ -32,4 +32,9 @@
   padding: 21px 31px;
   color: $btn-text-dark;
   background-color: $primary-green;
+
+  @media only screen and (max-width: 600px) {
+    padding: 8px 8px;
+    font-size: 12px;
+  }
 }

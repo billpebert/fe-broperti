@@ -1,19 +1,14 @@
 .hero-image {
-  max-width: 100%;
   img.hero-background {
-    width: 1440px;
-    z-index: -1;
+    max-width: 1200px;
+    z-index: -99;
     position: absolute;
+    overflow: hidden;
     top: 0;
-    @media only screen and (max-width: 600px) {
-      width: 100%;
-    }
   }
 }
-
 section.hero {
   padding-top: 100px;
-
   .form-content {
     margin-top: 60px;
     padding: 21px;
@@ -26,10 +21,31 @@ section.hero {
       border-radius: 7px;
       background-color: $input-bg;
       font-weight: map-get($map: $fw, $key: medium);
+
+      @media only screen and (max-width: 600px) {
+        font-size: 12px;
+      }
     }
+  }
+
+  .form-content-v2 {
+    @extend .form-content;
+    margin-top: 120px;
   }
 
   @media only screen and (max-width: 600px) {
     padding-top: 75px;
+  }
+}
+
+section.hero-v2 {
+  @extend .hero;
+  padding-top: 120px;
+
+  .arrow-img {
+    z-index: -1;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 830px;
   }
 }
