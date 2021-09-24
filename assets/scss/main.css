@@ -38,7 +38,7 @@
   color: #132039;
   background-color: #83d987;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .btn-exploreNow {
     padding: 12px 20px;
     font-size: 16px;
@@ -54,7 +54,7 @@ p {
 }
 
 .label-text {
-  font-size: 14px;
+  font-size: 14px !important;
   font-weight: 400;
   color: #020b2a;
 }
@@ -139,6 +139,11 @@ section.hero .form-content input, section.hero-v2 .form-content input, section.h
   border-radius: 7px;
   background-color: #f7f7f9;
   font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  section.hero .form-content input, section.hero-v2 .form-content input, section.hero .form-content-v2 input, section.hero-v2 .form-content-v2 input {
+    font-size: 14px;
+  }
 }
 section.hero .form-content-v2, section.hero-v2 .form-content-v2 {
   margin-top: 120px;

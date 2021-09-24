@@ -23,9 +23,10 @@ section.hero {
       background-color: $input-bg;
       font-weight: map-get($map: $fw, $key: medium);
 
-      // @media only screen and (max-width: 600px) {
-      //   font-size: 12px;
-      // }
+      // Apply to tablet and below
+      @media only screen and (max-width: 768px) {
+        font-size: 14px;
+      }
     }
   }
 

@@ -36,8 +36,8 @@
   padding: 21px 31px;
   color: $btn-text-dark;
   background-color: $primary-green;
-
-  @media only screen and (max-width: 600px) {
+  // Apply to tablet and below
+  @media only screen and (max-width: 768px) {
     padding: 12px 20px;
     font-size: 16px;
   }
