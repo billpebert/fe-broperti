@@ -17,6 +17,11 @@
 .btn-myAccount {
   padding: 12px 32px;
 }
+@media only screen and (max-width: 600px) {
+  .btn-myAccount {
+    margin-top: 15px;
+  }
+}
 
 .btn-v1 {
   background-color: #83d987;
@@ -35,8 +40,8 @@
 }
 @media only screen and (max-width: 600px) {
   .btn-exploreNow {
-    padding: 8px 8px;
-    font-size: 12px;
+    padding: 12px 20px;
+    font-size: 16px;
   }
 }
 
@@ -52,11 +57,6 @@ p {
   font-size: 14px;
   font-weight: 400;
   color: #020b2a;
-}
-@media only screen and (max-width: 600px) {
-  .label-text {
-    font-size: 12px;
-  }
 }
 
 h1 {
@@ -125,6 +125,7 @@ body ::-ms-input-placeholder {
 
 section.hero, section.hero-v2 {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 section.hero .form-content, section.hero-v2 .form-content, section.hero .form-content-v2, section.hero-v2 .form-content-v2 {
   margin-top: 60px;
@@ -138,11 +139,6 @@ section.hero .form-content input, section.hero-v2 .form-content input, section.h
   border-radius: 7px;
   background-color: #f7f7f9;
   font-weight: 500;
-}
-@media only screen and (max-width: 600px) {
-  section.hero .form-content input, section.hero-v2 .form-content input, section.hero .form-content-v2 input, section.hero-v2 .form-content-v2 input {
-    font-size: 12px;
-  }
 }
 section.hero .form-content-v2, section.hero-v2 .form-content-v2 {
   margin-top: 120px;

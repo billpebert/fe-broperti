@@ -13,6 +13,10 @@
 .btn-myAccount {
   @extend .btn-master;
   padding: 12px 32px;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 15px;
+  }
 }
 
 .btn-v1 {
@@ -34,7 +38,7 @@
   background-color: $primary-green;
 
   @media only screen and (max-width: 600px) {
-    padding: 8px 8px;
-    font-size: 12px;
+    padding: 12px 20px;
+    font-size: 16px;
   }
 }

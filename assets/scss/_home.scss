@@ -9,6 +9,7 @@
 }
 section.hero {
   padding-top: 100px;
+  padding-bottom: 50px;
   .form-content {
     margin-top: 60px;
     padding: 21px;
@@ -22,9 +23,9 @@ section.hero {
       background-color: $input-bg;
       font-weight: map-get($map: $fw, $key: medium);
 
-      @media only screen and (max-width: 600px) {
-        font-size: 12px;
-      }
+      // @media only screen and (max-width: 600px) {
+      //   font-size: 12px;
+      // }
     }
   }
 
