@@ -3,6 +3,113 @@
   font-family: "Poppins", sans-serif;
 }
 
+nav.navbar {
+  background-color: transparent !important;
+}
+nav.navbar .navbar-toggler-icon {
+  color: #83d987 !important;
+}
+nav.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9094a2 !important;
+  margin-left: 30px;
+}
+nav.navbar .navbar-nav .active {
+  font-weight: 500;
+  color: #83d987 !important;
+  border-bottom: 2px;
+  border-color: #83d987;
+}
+
+.modal-backdrop.show {
+  background-color: #707092;
+  opacity: 0.6;
+}
+
+.modal-item.modal {
+  top: 2rem;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+
+.btn-fill {
+  font: 600 18px/normal Poppins, sans-serif;
+  background-color: #524eee;
+  border-radius: 12px;
+  padding: 12px 32px;
+  transition: 0.3s;
+}
+
+.btn-fill:hover {
+  --tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.3s;
+}
+
+.btn-no-fill {
+  font: 300 18px/1.75rem Poppins, sans-serif;
+  color: #e7e7e8;
+  padding: 12px 32px;
+  transition: 0.3s;
+}
+
+.btn-no-fill:hover {
+  color: #e7e7e8;
+}
+
+.modal-item .modal-dialog .modal-content {
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.responsive li a {
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.btn-try {
+  font: 600 1rem/1.5rem Poppins, sans-serif;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #524eee;
+  transition: 0.3s;
+}
+
+.btn-try:hover {
+  --tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.3s;
+}
+
+@media (min-width: 576px) {
+  .modal-item .modal-dialog {
+    max-width: 95%;
+    border-radius: 12px;
+  }
+
+  .navbar {
+    padding: 3rem 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    padding: 3rem 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .navbar {
+    padding: 3rem 6rem;
+  }
+}
 .btn-master, .btn-exploreNow, .btn-v2, .btn-v1, .btn-myAccount {
   font-weight: 500;
   font-size: 18px;
@@ -69,24 +176,6 @@ h1 {
 body {
   max-width: 100%;
   background-color: #0f1837;
-}
-body nav.navbar {
-  background-color: transparent !important;
-}
-body nav.navbar .navbar-toggler-icon {
-  color: #83d987 !important;
-}
-body nav.navbar .navbar-nav .nav-link {
-  font-size: 18px;
-  font-weight: 400;
-  color: #9094a2 !important;
-  margin-left: 30px;
-}
-body nav.navbar .navbar-nav .active {
-  font-weight: 500;
-  color: #83d987 !important;
-  border-bottom: 2px;
-  border-color: #83d987;
 }
 body ::-moz-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
